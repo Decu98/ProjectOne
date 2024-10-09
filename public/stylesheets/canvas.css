@@ -1,0 +1,8 @@
+canvas {
+    display: block;
+}
+.canvasDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

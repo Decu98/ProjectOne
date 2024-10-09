@@ -1,0 +1,9 @@
+extends layout
+block scripts
+  script(type='text/javascript' src='/public/javascripts/tictactoe' defer)
+  link(rel='stylesheet', href='/stylesheets/canvas.css')
+block content
+  h1= title
+  p Welcome to the game of #{title}
+  div(class="canvasDiv")
+    canvas(id="tictactoeCanvas")
